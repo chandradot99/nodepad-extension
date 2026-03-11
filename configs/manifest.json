@@ -1,15 +1,20 @@
 {
   "manifest_version": 3,
-  "name": "React TypeScript Chrome Extension",
+  "name": "NodePad - n8n Node Sync",
   "version": "1.0.0",
-  "description": "A Chrome extension built with React, TypeScript, and Tailwind CSS (New Tab Mode)",
-  "chrome_url_overrides": {
-    "newtab": "index.html"
-  },
-  "permissions": ["storage"],
+  "description": "Sync your n8n node schemas to NodePad for AI-powered workflow generation",
+  "permissions": ["storage", "activeTab", "tabs", "sidePanel"],
   "host_permissions": ["<all_urls>"],
   "action": {
-    "default_title": "Open React Extension New Tab"
+    "default_title": "Open NodePad Node Sync",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+  "side_panel": {
+    "default_path": "index.html"
   },
   "background": {
     "service_worker": "background.js"

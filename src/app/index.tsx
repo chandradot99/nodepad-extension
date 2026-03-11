@@ -1,10 +1,10 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import Home from './home';
+import Popup from './Popup';
 import './styles.css';
 
 const container = document.getElementById('app-root');
 if (container) {
   const root = createRoot(container);
-  root.render(<Home />);
+  root.render(<Popup />);
 }

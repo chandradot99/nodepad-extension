@@ -1,7 +1,7 @@
 {
-  "name": "chrome-extension-react-scaffold",
+  "name": "nodepad-extension",
   "version": "1.0.0",
-  "description": "Chrome extension scaffold with React, TypeScript, and Tailwind CSS - supports both popup and side panel modes",
+  "description": "NodePad Chrome extension — sync n8n node schemas for AI-powered workflow generation",
   "private": true,
   "scripts": {
     "dev": "webpack --mode development --watch",
